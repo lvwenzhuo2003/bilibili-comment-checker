@@ -19,25 +19,31 @@ $(function () {
     // 在这里配置要检查的成分
     const checkers = [
         {
-            displayName: "原神",
+            displayName: "原批",
             displayIcon: "https://i2.hdslb.com/bfs/face/d2a95376140fb1e5efbcbed70ef62891a3e5284f.jpg@240w_240h_1c_1s.jpg",
-            keywords: ["互动抽奖 #原神", "#米哈游#", "#miHoYo#"],
-            followings: [401742377] // 原神官方号的 UID
+            keywords: ["互动抽奖 #原神", "#原神#"],
+            followings: [401742377, // 原神官方号
+                         1593381854, // 原神动画项目
+                         2006254817， // 原神赛事
+                         ]
         },
         {
-            displayName: "崩坏3",
+            displayName: "崩批",
             displayIcon: "https://i0.hdslb.com/bfs/face/f861b2ff49d2bb996ec5fd05ba7a1eeb320dbf7b.jpg@240w_240h_1c_1s.jpg",
-            keywords: ["​互动抽奖 #崩坏", "关注爱酱并转发本条动态"],
-            followings: [27534330] // 崩坏3官方号的 UID
+            keywords: ["​互动抽奖 #崩坏", "关注爱酱并转发本条动态", "互动抽奖 #星穹铁道", "#崩坏3#", "#崩坏：星穹铁道#"],
+            followings: [27534330, // 崩坏3第一偶像爱酱
+            			 256667467, // 崩坏3
+            			 1340190821] // 崩坏：星穹铁道官方号
         },
         {
-            displayName: "王者荣耀",
+            displayName: "农批",
             displayIcon: "https://i2.hdslb.com/bfs/face/effbafff589a27f02148d15bca7e97031a31d772.jpg@240w_240h_1c_1s.jpg",
             keywords: ["互动抽奖 #王者荣耀"],
-            followings: [57863910, 392836434] // “王者荣耀” & “哔哩哔哩王者荣耀赛事”
+            followings: [57863910, // 王者荣耀
+                         392836434] // 哔哩哔哩王者荣耀赛事
         },
         {
-            displayName: "VTB",
+            displayName: "嘉心糖/罕见/雏草姬",
             displayIcon: "https://i2.hdslb.com/bfs/face/d399d6f5cf7943a996ae96999ba3e6ae2a2988de.jpg@240w_240h_1c_1s.jpg",
             keywords: ["@嘉然今天吃什么"],
             followings: [
@@ -47,17 +53,13 @@ $(function () {
             ]
         },
         {
-            displayName: "Asoul",
-            displayIcon: "https://i2.hdslb.com/bfs/face/43b21998da8e7e210340333f46d4e2ae7ec046eb.jpg@240w_240h_1c_1s.jpg",
-            keywords: ["@A-SOUL_Official", "#A_SOUL#"],
-            followings: [
-                703007996, // Asoul
-                547510303, // Asoul二创计画
-                672342685, // 乃琳Queen
-                351609538, // 珈乐Carol
-                672346917, // 向晚大魔王
-                672353429, // 贝拉kira
-            ]
+        	displayName: "粥畜",
+        	displayIcon: "//i0.hdslb.com/bfs/face/d4005a0f9b898d8bb049caf9c6355f8e8f772a8f.jpg@240w_240h_1c_1s_!web-avatar-search-user.webp"
+        	keywords: ["#明日方舟#","互动抽奖 #明日方舟"],
+        	followings: [
+        		86009441, //明日方舟
+        		1265652806 //明日方舟终末地
+        	]
         }
     ]
 
